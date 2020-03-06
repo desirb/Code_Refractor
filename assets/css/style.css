@@ -1,13 +1,25 @@
+
+
+
+
+/*Condensed classes that were alike and made the corresponding changes in the HTML file.*/
+
+
+
+
+/*Selects all elements targets the following attributes*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Changes the background color of the web page. This value equates to a shade of grey.*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Increased the area of the box, changed the font, made the background color a shade of blue, changed font color to white.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +27,19 @@ body {
     color: #ffffff;
 }
 
+/*Aligned the text in a single line and changed the font size.*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Targetted the 'seo' in 'Horiseon' and made it a different color from the rest of the letters*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Added some space around the top of the element. Increased the margin on the right side to keep it farther away from the edge of the page. 
+Brought the text up along side of 'Horiseon' as opposed to under it. Changed the font and made the text slightly bigger.*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +48,30 @@ body {
     font-size: 20px;
 }
 
+/*Took away any automatic styling that comes with browsers.*/
 .header nav ul {
     list-style-type: none;
 }
 
+/*Changed the positiong of the list items so they would side by side and not under each other. Added spacing inbetween each list item.*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Makes the navigation links in the header white*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Made all the paragraph text slightly larger.*/
 p {
     font-size: 16px;
 }
 
+/*Styling for the background image directly under the header. It is 800 pixels long and takes up the whole browser width-wise.
+Has a bottom margin to keep other elements away from it. Resized the image to be displayed within our parameters and positioned it to the center.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +81,28 @@ p {
     background-position: center;
 }
 
+/*Moved the text to the right of the image while keeping it aligned. Increased the margin to keep the text away from the image.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Moved the text to the left and the image to the right. Increased the margin to keep the text away from the image.*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*The width takes up 75% of the page. The aside content will now appear alongside the main content as opposed to under it. 
+Added a margin to the left to keep it away from the edge of the page.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Added spacing to the right and some padding to keep it away from the border. Aligned it with our main 
+content and adjusted the width so it would fit it. Changed the font and the background color.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +114,26 @@ p {
     background-color: #2589bd;
 }
 
+/*Alters the text and adds margin to the bottom.*/
 .benefit-lbc {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Puts the text in the center and adds space to the bottom*/
 .benefit-lbc h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Additional formatting for the photo in order for it to align correctly.*/
 .benefit-lbc img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Adds space to the bottom and around the content. Changed the height, font family, background color, and text color.*/
 .blue {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +143,18 @@ p {
     color: #ffffff;
 }
 
+/*Alters height of image.*/
 .blue img {
     max-height: 200px;
 }
 
+/*Add space to the bottom and made the font size larger.*/
 .blue h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Adds space around the content, puts the text in the center and changes the font family*/
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +162,7 @@ p {
     text-align: center;
 }
 
+/*Changes font size*/
 .footer h2 {
     font-size: 20px;
 }
